@@ -1,0 +1,20 @@
+<Context>
+    <Resource name="jdbc/sportslegendsAdminDS"
+              auth="Container" type="javax.sql.DataSource"
+              maxTotal="50" maxIdle="30"
+              maxWaitMillis="10000" username="sportslegends_admin"
+              password="15062803" driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/sportslegends"/>
+    <Resource name="jdbc/sportslegendsClientDS"
+              auth="Container" type="javax.sql.DataSource"
+              maxTotal="50" maxIdle="30"
+              maxWaitMillis="10000" username="sportslegends_client"
+              password="15062804" driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/sportslegends"/>
+    <Resource name="jdbc/sportslegendsGuestDS"
+              auth="Container" type="javax.sql.DataSource"
+              maxTotal="50" maxIdle="30"
+              maxWaitMillis="10000" username="sportslegends_guest"
+              password="15062805" driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/sportslegends"/>
+</Context>
